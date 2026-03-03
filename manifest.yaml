@@ -1,0 +1,41 @@
+version: 0.0.1
+type: plugin
+author: eason
+name: sharepointtool
+label:
+  en_US: sharepointtool
+  ja_JP: sharepointtool
+  zh_Hans: sharepointtool
+  pt_BR: sharepointtool
+description:
+  en_US: Sharepoint Embedded tool
+  ja_JP: Sharepoint Embedded tool
+  zh_Hans: Sharepoint Embedded tool
+  pt_BR: Sharepoint Embedded tool
+icon: icon.svg
+icon_dark: icon-dark.svg
+resource:
+  memory: 268435456
+  permission:
+    tool:
+      enabled: true
+    storage:
+      enabled: true
+      size: 1048576
+plugins:
+  tools:
+    - provider/sharepointtool.yaml
+meta:
+  version: 0.0.1
+  arch:
+    - amd64
+    - arm64
+  runner:
+    language: python
+    version: "3.12"
+    entrypoint: main
+  minimum_dify_version: 1.13.0
+created_at: 2026-03-02T16:11:48.3894968+08:00
+privacy: PRIVACY.md
+repo: https://github.com/4cos90/dify-sharepoint-embedded
+verified: false

@@ -1,0 +1,32 @@
+identity:
+  name: "sharepoint_semantic_search"
+  author: "eason"
+  label:
+    en_US: "SemanticSearch"
+    zh_Hans: "Sharepoint 语义搜索"
+    pt_BR: "Busca semântica Sharepoint"
+    ja_JP: "Sharepoint セマンティック検索"
+description:
+  human:
+    en_US: "SemanticSearch"
+    zh_Hans: "Sharepoint 语义搜索"
+    pt_BR: "Busca semântica Sharepoint"
+    ja_JP: "Sharepoint セマンティック検索"  
+  llm: "Semantic search"
+parameters:
+    - name: search_query
+      type: string
+      required: true
+      label:
+          en_US: Query string
+          zh_Hans: Query string
+          pt_BR: Query string
+      human_description:
+          en_US: used for searching
+          zh_Hans: used for searching web content
+          pt_BR: used for searching
+      llm_description: key words for searching
+      form: llm
+extra:
+  python:
+    source: tools/tool_semantic_search.py

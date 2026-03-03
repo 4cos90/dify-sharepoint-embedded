@@ -1,0 +1,18 @@
+identity:
+  name: "sharepoint_list_file"
+  author: "eason"
+  label:
+    en_US: "ListFile"
+    zh_Hans: "列出 Sharepoint 文件"
+    pt_BR: "Listar arquivos Sharepoint"
+    ja_JP: "Sharepoint ファイルを一覧表示"
+description:
+  human:
+    en_US: "ListFile"
+    zh_Hans: "列出 Sharepoint 文件"
+    pt_BR: "Listar arquivos Sharepoint"
+    ja_JP: "Sharepoint ファイルを一覧表示"
+  llm: "List files"
+extra:
+  python:
+    source: tools/tool_list_files.py

@@ -1,0 +1,71 @@
+identity:
+  author: "eason"
+  name: "sharepointtool"
+  label:
+    en_US: "sharepointtool"
+    zh_Hans: "sharepointtool"
+    pt_BR: "sharepointtool"
+    ja_JP: "sharepointtool"
+  description:
+    en_US: "Sharepoint Embedded tool"
+    zh_Hans: "Sharepoint Embedded tool"
+    pt_BR: "Sharepoint Embedded tool"
+    ja_JP: "Sharepoint Embedded tool"
+  icon: "icon.svg"
+credentials_for_provider:
+  client_id:
+    type: secret-input
+    required: true
+    placeholder:
+      en_US: "Please input your Client ID"
+      zh_Hans: "请输入你的 Client ID"
+    help:
+      en_US: "Client ID is used to authenticate requests to the sharepoint embedded API."
+      zh_Hans: "Client ID 用于认证请求到 sharepoint embedded API。"
+    label:
+      zh_Hans: "Client ID"
+      en_US: "Client ID"
+  client_secret:
+    type: secret-input
+    required: true
+    placeholder:
+      en_US: "Please input your Client Secret"
+      zh_Hans: "请输入你的 Client Secret"
+    help:
+      en_US: "Client Secret is used to authenticate requests to the sharepoint embedded API."
+      zh_Hans: "Client Secret 用于认证请求到 sharepoint embedded API。"
+    label:
+      zh_Hans: "Client Secret"
+      en_US: "Client Secret"
+  tenant_id:
+    type: secret-input
+    required: true
+    placeholder:
+      en_US: "Please input your Tenant ID"
+      zh_Hans: "请输入你的 Tenant ID"
+    help:
+      en_US: "Tenant ID is used to authenticate requests to the sharepoint embedded API."
+      zh_Hans: "Tenant ID 用于认证请求到 sharepoint embedded API。"
+    label:
+      zh_Hans: "Tenant ID"
+      en_US: "Tenant ID"
+  container_id:
+    type: secret-input
+    required: true
+    placeholder:
+      en_US: "Please input your Container ID"
+      zh_Hans: "请输入你的 Container ID"
+    help:
+      en_US: "Container ID is used to authenticate requests to the sharepoint embedded API."
+      zh_Hans: "Container ID 用于认证请求到 sharepoint embedded API。"
+    label:
+      zh_Hans: "Container ID"
+      en_US: "Container ID"
+tools:
+  - tools/tool_get_access_token.yaml
+  - tools/tool_semantic_search.yaml
+  - tools/tool_list_files.yaml
+
+extra:
+  python:
+    source: provider/sharepointtool.py

@@ -1,0 +1,18 @@
+identity:
+  name: "sharepoint_get_access_token"
+  author: "eason"
+  label:
+    en_US: "GetAccess"
+    zh_Hans: "获取 Sharepoint 访问令牌"
+    pt_BR: "Obter token de acesso Sharepoint"
+    ja_JP: "Sharepoint アクセス トークンを取得"
+description:
+  human:
+    en_US: "GetAccess"
+    zh_Hans: "获取 Sharepoint 访问令牌"
+    pt_BR: "Obter token de acesso Sharepoint"
+    ja_JP: "Sharepoint アクセス トークンを取得"
+  llm: "Get access_token"
+extra:
+  python:
+    source: tools/tool_get_access_token.py
