@@ -73,7 +73,7 @@
 如果您对本隐私政策有任何疑问或建议，请通过以下方式联系我们：
 
 - GitHub 仓库：https://github.com/4cos90/dify-sharepoint-embedded
-- 作者：eason
+- 作者：4cos90
 
 ### 11. 适用法律
 

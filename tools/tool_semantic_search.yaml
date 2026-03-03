@@ -1,6 +1,6 @@
 identity:
   name: "sharepoint_semantic_search"
-  author: "eason"
+  author: "4cos90"
   label:
     en_US: "SemanticSearch"
     zh_Hans: "Sharepoint 语义搜索"
