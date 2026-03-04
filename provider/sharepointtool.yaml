@@ -11,7 +11,7 @@ identity:
     zh_Hans: "Sharepoint Embedded tool"
     pt_BR: "Sharepoint Embedded tool"
     ja_JP: "Sharepoint Embedded tool"
-  icon: "icon.svg"
+  icon: "icon.png"
 credentials_for_provider:
   client_id:
     type: secret-input

@@ -12,8 +12,8 @@ description:
   ja_JP: Sharepoint Embedded tool
   zh_Hans: Sharepoint Embedded tool
   pt_BR: Sharepoint Embedded tool
-icon: icon.svg
-icon_dark: icon-dark.svg
+icon: icon.png
+icon_dark: icon.png
 resource:
   memory: 268435456
   permission:
